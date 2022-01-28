@@ -1,0 +1,24 @@
+.styledNavWrapper{
+    width: 70%;
+    margin: 0% 5% 0% 10%;
+    box-shadow: 0px 0px 10px #0000008f;
+}
+
+.styledNav {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+} 
+
+
+.styledLink{
+    color: #fff;
+    font-size:1.667vw;  /* // 24px in viewport 1440 */
+    font-weight:400;
+    padding: 0% 4%;
+}
+
+.styledLink:active, .styledLink:hover {
+    text-decoration: underline;
+}
+
+

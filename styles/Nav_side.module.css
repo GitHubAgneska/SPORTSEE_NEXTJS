@@ -1,0 +1,39 @@
+
+.styledNavWrapper{
+    width: 8%; /* 120px in 1440 */
+    height:100vh;
+    background-color:black; 
+    display: flex; flex-flow: column nowrap; align-items: center;
+    justify-content: space-between;
+}
+
+.styledNavSide {
+    padding-top:355px;
+}
+
+
+.styledUl {
+    display: flex; flex-flow: column nowrap;
+    align-items: center;
+}
+
+
+.sideIcon  {
+    height: 65px;
+    width: 65px;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+.sideIcon:hover { box-shadow: 0px 0px 15px #fff; }
+
+
+.copyrightWrapper { 
+    transform: rotate(-90deg);
+    width:140px;
+    margin-bottom: 100px;
+}
+
+
+.styledP {
+    font-size:12px; font-weight:400;
+    color:white;}
